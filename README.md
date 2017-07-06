@@ -34,6 +34,7 @@ traphandle 1.3.6.1.4.1.41717.10.* /usr/bin/perl path/to/et2536-save15/assignment
 7. Then Open the Terminal and give the command as:
 
 sudo snmptrap -v 1 -c public 192.168.32.141:50162 .1.3.6.1.4.1.41717.10 10.2.3.4 6 247 '' .1.3.6.1.4.1.41717.10.1 s "" .1.3.6.1.4.1.41717.10.2 i 1
+
 ---
 8. Open localhost/et2536-save15/assignment3/index.php, where you can see the status of the device. 
 9. If there is a Fail trap recieved, then the on the webpage, there is a link as "SNMP TRAP SENDER".
