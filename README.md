@@ -34,13 +34,12 @@ traphandle 1.3.6.1.4.1.41717.10.* /usr/bin/perl path/to/et2536-save15/assignment
 7. Then Open the Terminal and give the command as:
 
 sudo snmptrap -v 1 -c public 192.168.32.141:50162 .1.3.6.1.4.1.41717.10 10.2.3.4 6 247 '' .1.3.6.1.4.1.41717.10.1 s "" .1.3.6.1.4.1.41717.10.2 i 1
-
+---
 8. Open localhost/et2536-save15/assignment3/index.php, where you can see the status of the device. 
 9. If there is a Fail trap recieved, then the on the webpage, there is a link as "SNMP TRAP SENDER".
 10. Click on the specified  link on the webpage to send the Traps to the manager specified to the user. 
 11. After the link is clicked, specify the IP, COMMUNITY and PORT for which the trap should be sent.
 12. Click submit.
----
 
 
 NOTE: IF THERE is NO PREVIOUS STATUS AND TIME then those corresponding OID's are not present in the TRAP when the trap is being sent to the trap listener. 
